@@ -20,8 +20,8 @@
       <Folder Include="Enums\" />
     </ItemGroup>
 
-    <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
-      <Exec Command="sass Styles:wwwroot/ --style compressed --load-path=Styles --update" />
-    </Target>
+<!--    <Target Name="PreBuild" BeforeTargets="PreBuildEvent">-->
+<!--      <Exec Command="sass Styles:wwwroot/ &#45;&#45;style compressed &#45;&#45;load-path=Styles &#45;&#45;update" />-->
+<!--    </Target>-->
 
 </Project>
